@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pipes.component.scss']
 })
 export class PipesComponent implements OnInit {
+  someText = 'TESTANDO O PIPE OPERATOR'
+  nameText = 'ronaldo arruda dos santos junior'
 
+  today = new Date();
+  
   constructor() { }
 
   ngOnInit(): void {
