@@ -12,6 +12,10 @@ export class PeopleService {
 
   constructor (private http: HttpClient) { }
 
+  remove(people:Person[], person: Person) {
+    return people.filter((a) =>person.name !== a.name)
+  }
+
   getAll(): Observable<Person[]> {
     return this.http.get<Person[]>(this.apiUrl)
   }

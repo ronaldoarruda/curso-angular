@@ -13,6 +13,13 @@
     {"id":3, "name":"Alex", "type":"Human","age":21},
     {"id":4, "name":"Dogla", "type":"Human","age":26},
     {"id":5, "name":"Lucas", "type":"Human","age":20}
+  ],
+  "cars": [
+    {"id":1, "name":"Polo", "type":"Hatch","age":47},
+    {"id":2, "name":"Fusca", "type":"Collection","age":84},
+    {"id":3, "name":"Carrera-911", "type":"Sport","age":59},
+    {"id":4, "name":"Hilux", "type":"Pickup","age":54},
+    {"id":5, "name":"D-20", "type":"Truck","age":37}
   ]
 }
 

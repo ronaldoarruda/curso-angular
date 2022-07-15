@@ -21,6 +21,10 @@ export class PeopleComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  removePerson(person:Person) {
+    this.people = this.peopleService.remove(this.people, person)
+  }
+
   getPeople(): void {
     this.peopleService.getAll().subscribe((peopleResponse) => (this.people = peopleResponse))
   }

@@ -4,6 +4,7 @@
     <li *ngFor="let person of people">
       Nome: {{ person.name }} -- Tipo: {{ person.type }}
       <button (click)="showAge(person)">Show Age</button>
+      <button (click)="removePerson(person)">Excluir</button>
     </li>
   </ul>
   <h3>{{ peopleDetails }}</h3>
