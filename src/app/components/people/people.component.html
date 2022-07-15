@@ -1,0 +1,11 @@
+<div class="class">
+  <h2>People</h2>
+  <ul>
+    <li *ngFor="let person of people">
+      Nome: {{ person.name }} -- Tipo: {{ person.type }}
+      <button (click)="showAge(person)">Show Age</button>
+    </li>
+  </ul>
+  <h3>{{ peopleDetails }}</h3>
+</div>
+

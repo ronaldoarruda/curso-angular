@@ -5,5 +5,14 @@
     {"id":3, "name":"Frida", "type":"Dog","age":11},
     {"id":4, "name":"Bob", "type":"Horse","age":2},
     {"id":5, "name":"Paco", "type":"Bird","age":1}
+  ],
+
+  "people": [
+    {"id":1, "name":"Pajé", "type":"Human","age":24},
+    {"id":2, "name":"Juninho", "type":"Human","age":24},
+    {"id":3, "name":"Alex", "type":"Human","age":21},
+    {"id":4, "name":"Dogla", "type":"Human","age":26},
+    {"id":5, "name":"Lucas", "type":"Human","age":20}
   ]
 }
+
