@@ -17,6 +17,10 @@ export class CarService {
   }
 
   getAll(): Observable<Car[]> {
-    return this.http.get<Car[]>(this.apiUrl)
+    return this.http.get<Car[]>(`${this.apiUrl}`)
+  }
+
+  getItem(id:number): Observable<Car> {
+    return this.http.get<Car>(`${this.apiUrl}/${id}`)
   }
 }

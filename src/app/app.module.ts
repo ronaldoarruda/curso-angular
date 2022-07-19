@@ -17,6 +17,9 @@ import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayDataBindingComponent } from './components/two-way-data-binding/two-way-data-binding.component';
 import { PeopleComponent } from './components/people/people.component';
 import { CarComponent } from './components/car/car.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { ItemPeopleDetailComponent } from './components/item-people-detail/item-people-detail.component';
+import { ItemCarsDetailComponent } from './components/item-cars-detail/item-cars-detail.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { CarComponent } from './components/car/car.component';
     PipesComponent,
     TwoWayDataBindingComponent,
     PeopleComponent,
-    CarComponent
+    CarComponent,
+    ItemDetailComponent,
+    ItemPeopleDetailComponent,
+    ItemCarsDetailComponent
   ],
   imports: [
     BrowserModule,
